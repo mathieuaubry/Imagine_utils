@@ -11,7 +11,7 @@ import PIL.Image as Image
 
 ## add your images extension if not in the list 
 
-def ConvertPNG2JPG(inDir, outDir, imgExtension = ['png']) : 
+def ConvertPNG2JPG(inDir, outDir, imgExtension = ['png', 'PNG']) : 
 	## Create output directory
 	os.mkdir(outDir)
 
