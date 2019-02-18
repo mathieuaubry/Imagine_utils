@@ -25,7 +25,7 @@ def ConvertPNG2JPG(inDir, outDir, imgExtension = ['png', 'PNG']) :
 		for img in files : 
 			if img.split('.')[-1] in imgExtension : 
 				imgPath = os.path.join(root, img)
-				outPath = imgPath.replace('.png', '.jpg')
+				outPath = imgPath.replace('.png', '.jpg').replace('.PNG', '.jpg')
 				w, h = Image.open(imgPath).convert('RGB').size
 				## convert
 				cmd = 'convert {} -resize {:d}x{:d} -size {:d}x{:d} xc:white +swap -compose over -composite {}'.format(imgPath, w, h, w, h, outPath)
