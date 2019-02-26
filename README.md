@@ -46,4 +46,4 @@ Motivation : Implementation of the BatchRenorm Layer presented by [Sergey Ioffe]
 
 Script is [here](https://github.com/tdeprelle/Imagine_utils/blob/master/BatchRenorm/BatchRenorm.py)
 
-[Example of the usage of BatchRenorm](https://github.com/tdeprelle/Imagine_utils/blob/master/utils/batchrenorm.png)
+![Example of the usage of BatchRenorm](https://github.com/tdeprelle/Imagine_utils/blob/master/utils/batchrenorm.png)
