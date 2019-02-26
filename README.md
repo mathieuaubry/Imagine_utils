@@ -1,7 +1,7 @@
 # Imagine ToolBox
 We share some useful scripts for developping deep learning model.
 
-The default environment is : Python 3.6 + Pytorch 1.0 
+The default environment is : Python 3.6 + Pytorch 1.0
 
 
 ## Table of Content
@@ -12,12 +12,12 @@ The default environment is : Python 3.6 + Pytorch 1.0
 
 ## LoadPartialNetwork
 
-Motivation: Only want to use part of pre-trained network. 
+Motivation: Only want to use part of pre-trained network.
 
 Script is [here](https://github.com/tdeprelle/Imagine_utils/blob/master/LoadPartialNetwork/LoadPartialNetwork.py)
 
 ## ConvertHR2LR
-Motivation : For visual images, we should firstly save them with high resolution, then convert to low resolution if limited by space memory. 
+Motivation : For visual images, we should firstly save them with high resolution, then convert to low resolution if limited by space memory.
 
 Dependency : [ImageMagick](https://www.imagemagick.org/)
 
@@ -41,8 +41,9 @@ Script is [here](https://github.com/tdeprelle/Imagine_utils/blob/master/VisualWe
 
 A demo can be found in ```VisualWeb/demo.sh```
 
+## BatchRenorm
+Motivation : Implementation of the BatchRenorm Layer presented by [Sergey Ioffe](https://arxiv.org/abs/1702.03275)
 
+Script is [here](https://github.com/tdeprelle/Imagine_utils/blob/master/BatchRenorm/BatchRenorm.py)
 
-
-
-
+[Example of the usage of BatchRenorm](https://github.com/tdeprelle/Imagine_utils/blob/master/utils/batchrenorm.png)
