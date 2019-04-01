@@ -53,6 +53,6 @@ Motivation : As of today (April 1st, 2019), there is no official release for PyM
 
 * Activate your python 3.7 anaconda environment
 * Install mpfr with `conda install -c anaconda mpfr`
-* Install the wheel with `pip install pymesh\_python37/pymesh2-0.2.1-cp37-cp37m-linux\_x86\_64.whl`
+* Install the wheel with `pip install pymesh_python37/pymesh2-0.2.1-cp37-cp37m-linux_x86_64.whl`
 * Test your installation with `python -c "import pymesh; pymesh.test()"` 
 
