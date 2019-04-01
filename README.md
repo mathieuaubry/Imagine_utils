@@ -51,8 +51,12 @@ Script is [here](https://github.com/tdeprelle/Imagine_utils/blob/master/BatchRen
 ## PyMesh for Python 3.7
 Motivation : As of today (April 1st, 2019), there is no official release for PyMesh2 on python 3.7
 
+Requirements: numpy and scipy
+
 * Activate your python 3.7 anaconda environment
 * Install mpfr with `conda install -c anaconda mpfr`
+* Install nose with `pip install nose`
+* Install boost on your env with `conda install pymesh_python37/boost-1.58.0-py37_0.tar.bz2`
 * Install the wheel with `pip install pymesh_python37/pymesh2-0.2.1-cp37-cp37m-linux_x86_64.whl`
 * Test your installation with `python -c "import pymesh; pymesh.test()"` 
 
