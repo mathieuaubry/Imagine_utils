@@ -47,3 +47,12 @@ Motivation : Implementation of the BatchRenorm Layer presented by [Sergey Ioffe]
 Script is [here](https://github.com/tdeprelle/Imagine_utils/blob/master/BatchRenorm/BatchRenorm.py)
 
 ![Example of the usage of BatchRenorm](https://github.com/tdeprelle/Imagine_utils/blob/master/utils/batchrenorm.png)
+
+## PyMesh for Python 3.7
+Motivation : As of today (April 1st, 2019), there is no official release for PyMesh2 on python 3.7
+
+* Activate your python 3.7 anaconda environment
+* Install mpfr with `conda install -c anaconda mpfr`
+* Install the wheel with `pip install pymesh\_python37/pymesh2-0.2.1-cp37-cp37m-linux\_x86\_64.whl`
+* Test your installation with `python -c "import pymesh; pymesh.test()"` 
+
