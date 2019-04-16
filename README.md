@@ -25,6 +25,8 @@ Script is [here](https://github.com/tdeprelle/Imagine_utils/blob/master/ConvertH
 
 A demo can be found in ```ConvertHR2LR/demo.sh```
 
+Also see imagemagick https://www.imagemagick.org/.
+
 ## ConvertPNG2JPG
 Motivation : The same motivation as [ConvertHR2LR](ConvertHR2LR), the function allows to convert png image to jpg image keeping transparence
 
@@ -33,6 +35,8 @@ Dependency : [ImageMagick](https://www.imagemagick.org/)
 Script is [here](https://github.com/tdeprelle/Imagine_utils/blob/master/ConvertPNG2JPG/ConvertPNG2JPG.py)
 
 A demo can be found in ```ConvertPNG2JPG/demo.sh```
+
+Also see imagemagick https://www.imagemagick.org/.
 
 ## VisualWeb
 Motivation : Visualizing images with website
