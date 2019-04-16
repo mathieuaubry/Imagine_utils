@@ -60,3 +60,9 @@ Requirements: numpy and scipy
 * Install the wheel with `pip install pymesh_python37/pymesh2-0.2.1-cp37-cp37m-linux_x86_64.whl`
 * Test your installation with `python -c "import pymesh; pymesh.test()"` 
 
+
+## Latex tools and tricks
+* https://mathpix.com/ : screenshot to latex
+* https://www.chachatelier.fr/latexit/ : latex formula e.g. to include in ppt presentations
+* \usepackage{microtype} : to gain a few lines on your submission without visible effect when you are overlength 5 minutes before the deadline
+
